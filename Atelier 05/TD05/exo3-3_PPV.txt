@@ -1,0 +1,50 @@
+ppv - 10 mots ex 3
+0 -> 7 / => Pas le même son
+1 -> 4 /e/
+2 -> 3 /e/
+3 -> 1 /e/
+4 -> 1 /e/
+5 -> 7 /E/
+6 -> 9 /E/
+7 -> 5 /E/
+8 -> 5 /E/
+9 -> 6 /E/
+
+Taux de reconnaissance : 9/10
+
+3ppv
+
+0 -> 5, 7, 4 - FFV
+1 -> 4, 3, 0 - VVV
+2 -> 3, 1, 4 - VVV
+3 -> 1, 4, 2 - VVV
+4 -> 1, 3, 0 - VVV
+5 -> 7, 8, 0 - VVF
+6 -> 9, 8, 5 - VVV
+7 -> 5, 0, 8 - VFV
+8 -> 5, 7, 6 - VVV
+9 -> 6, 8, 5 - VVV 
+
+Taux de reconnaissance : 26/30
+
+
+Condensation
+
+On élimine le point 9 et 2
+
+0 -> 5, 7, 4 - FFV
+1 -> 4, 3, 0 - VVV
+2 -> 3, 1, 4 - VVV
+3 -> 1, 4, 2 - VVV
+4 -> 1, 3, 0 - VVV
+5 -> 7, 8, 0 - VVF
+6 -> 8, 5, 7 - VVV
+7 -> 5, 0, 8 - VFV
+8 -> 5, 7, 6 - VVV
+9 -> 6, 8, 5 - VVV
+
+=> Les résultats sont similaires, ces points ne sont donc pas discriminants. 
+
+Edition 
+
+Etant donné que je n'ai pas de points perdu isolé dans la mauvaise frontière, je n'ai pas besoin d'éditer.
