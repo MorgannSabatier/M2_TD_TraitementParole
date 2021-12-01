@@ -1,0 +1,16 @@
+path$ = ""
+
+form Input Lecture d'une matrice individus-variables pour une AFD
+    comment Entrez le nom d'un fichier de type TableOfReal
+    sentence matNom tableApp02
+endform
+
+file$ = path$ + matNom$+".TableOfReal"
+Read from file... 'file$'
+To Discriminant
+select TableOfReal 'matNom$'
+plus Discriminant 'matNom$'
+To Configuration... 2
+Erase all
+Draw... 1 2 0 0 0 0 12 yes + no
+exit
